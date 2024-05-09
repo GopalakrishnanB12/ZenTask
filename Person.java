@@ -11,15 +11,17 @@ class Person{
     }
 
     public String toString() {
-        return age + " " + name ;
+        return "Age: " +age + " Name: " + name ;
     }
 
     public static void main(String[] args) {
         Person p1=new Person(10, "Vel");
         Person p2=new Person("Krish");
+        Person p3=new Person(22,"Raina");
 
-        System.out.println("Age: "+p1.age+" Name: "+p1.name);
-        System.out.println("Age: "+p2.age+" Name: "+p2.name);
+        System.out.println(p1);
+        System.out.println(p2);
+        System.out.println(p3);
         
     }
 }
